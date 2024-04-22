@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subhomoy's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(32, 32, 59);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 90px;
+            background-color: rgb(89, 89, 139);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a{
+           text-decoration: none;
+           color: white;
+        }
+        nav ul li a:hover{
+           color: rgb(108, 108, 229);
+           font-size: 1.09rem;
+        }
+        main hr{
+            border: 0;
+            background: rgb(103, 103, 194);
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+        .left{
+            font-size: 1.5rem;
+        }
+        .firstSection{
+            display: flex;
+            justify-content: space-around;
+            margin: 23px 0;
+        }
+        .firstSection > div{
+            width: 30%;
+        }
+        .leftSection{
+            font-size: 2.22rem;
+            left: 20px;
+            margin: 150px 20px;
+        }
+        .leftSection .buttons{
+            padding: 50px 0;
+        }
+        .leftSection .btn{
+            padding: 12px;
+            background: purple;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .rightSection img{
+            width: 80%;
+            margin: 50px 0;
+        }
+        .purple{
+            color:rgb(133, 78, 183);
+        }
+        .text-gray{
+            color: gray;
+        }
+        #element{
+            color:rgb(133, 78, 183);
+        }
+        .secondSection{
+            left: 20px;
+            margin: 0 150px;
+            height: 80vh;            ;
+        }
+        .secondSection h1{
+            font-size: 1.9rem;
+        }
+        .secondSection .box{
+            background: rgb(248, 247, 247);
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+        .secondSection .vertical{
+            height: 93px;
+            width: 1px;
+            background: white;
+            margin: 0 120px;
+        }
+        .image-top{
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+        .vertical-title{
+            position: relative;
+            top: 75px;
+            width: 150px;
+        }
+        .vertical-desc{
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+        }
+        footer{
+            background-color: rgb(44, 45, 60);
+        }
+        .footer{
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer > div{
+            width: 223px;
+        }
+        footer .footer-rights{
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+        footer .footer-fourth{
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Subhomoy's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Subhomoy</span> 
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="pngegg (4).png" width="400px" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-grey">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="pngegg (6).png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer - Pinterest (2014-2016)
+                    </div>
+                    <div class="vertical-desc">
+                        Over two years at Pinterest, I've specialized in HTML development, shaping captivating and intuitive web interfaces. Collaborating closely with teams, I've optimized layouts for responsiveness and performance, enriching user experiences across the platform. Constantly evolving, I thrive on crafting innovative digital solutions.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="pngegg (1).png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer Instagram (2016-2018)
+                    </div>
+                    <div class="vertical-desc">
+                        In my two-year journey at Instagram, I've immersed myself in HTML development, sculpting dynamic and engaging user interfaces. Collaborating with diverse teams, I've refined layouts for responsiveness and speed, enriching the visual storytelling experience for millions of users worldwide.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="pngegg (2).png" alt="">
+                    <div class="vertical-title">
+                        Node.js Developer Facebook (2018-2019)
+                    </div>
+                    <div class="vertical-desc">
+                        In my one-year tenure as a Node.js developer at Instagram, I've delved deep into backend systems, optimizing performance and scalability. Collaborating with cross-functional teams, I've implemented robust APIs and real-time features, enhancing the platform's functionality and user engagement.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="pngegg (3).png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer Twitter (2019-2021)
+                    </div>
+                    <div class="vertical-desc">
+                        During my two years at Twitter, I've specialized in HTML development, crafting compelling and accessible user interfaces. Collaborating closely with multidisciplinary teams, I've optimized layouts for responsiveness and usability, contributing to the seamless experience of millions of users on the platform.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="pngegg (5).png" alt="">
+                    <div class="vertical-title">
+                        Software Developer YouTube (2021-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        In my two-year tenure as a software developer at YouTube, I've been deeply involved in enhancing the platform's functionality and user experience. Working within a dynamic team, I've developed and maintained key features, optimized performance, and contributed to innovations shaping the future of online video consumption.
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Subhomoy's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact Me</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; www.subhomoysportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Graphic Designer','Video Editor'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
